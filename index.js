@@ -1,6 +1,6 @@
 // Create a function called countFroyoFlavors
 const countFroyoFlavors = () => {
-  const userInput = prompt(`Enter a list of comma-separated froyo flavors (Case Sensative): `);
+  const userInput = prompt(`Enter a list of comma-separated froyo flavors (Space Sensative): `);
 
   //Split input string into an array of flavors
   const flavors = userInput.split(`,`);
@@ -22,7 +22,3 @@ const countFroyoFlavors = () => {
 
 // Invokes function
 countFroyoFlavors();
-
-
-
-// return total amount of scoops associated with the flavor
