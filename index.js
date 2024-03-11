@@ -16,10 +16,11 @@ const countFroyoFlavors = () => {
       flavorCount[flavor] = 1;
     }
   }
-  // return total amount of scoops associated with the flavor
-  console.table(flavorCount);
+    // return total amount of scoops associated with the flavor
+    console.table(flavorCount);
 }
 
+// Invokes function
 countFroyoFlavors();
 
 
